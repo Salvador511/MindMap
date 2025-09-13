@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-neutral-950 text-neutral-100 antialiased;
+}
+
+.container-page {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* XYFlow (React Flow) dark overrides */
+.react-flow, .xyflow {
+  --xy-background-color: #0a0a0a; /* canvas bg */
+  --xy-panel-background-color: #0a0a0a; /* panels like controls */
+  --xy-panel-color: #e5e7eb;
+  --xy-controls-button-bg-color: #111827;
+  --xy-controls-button-color: #e5e7eb;
+  --xy-controls-button-bg-color-hover: #1f2937;
+  --xy-controls-button-border-color: #374151;
+  --xy-minimap-background-color: #0a0a0a;
+  --xy-minimap-mask-color: rgba(10,10,10,0.6);
+}
+
+/* Fallbacks for older class names */
+.react-flow__controls button, .xy-controls button {
+  background: #111827 !important;
+  color: #e5e7eb !important;
+  border-color: #374151 !important;
+}
+.react-flow__controls button:hover, .xy-controls button:hover { background: #1f2937 !important; }
+.react-flow__minimap, .xy-minimap { background: #0a0a0a !important; }
