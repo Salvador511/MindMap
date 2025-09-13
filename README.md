@@ -7,6 +7,18 @@ A simple website to create mindmaps inspired by the provided mockups.
 - Editor built with @xyflow/react (React Flow)
 - Templates that prefill the editor
 
+## About
+
+MindMap Maker is a lightweight, modern mind‑mapping tool. It uses Next.js, Tailwind CSS, and React Flow (@xyflow/react) to let you quickly create, connect, and style ideas. Templates help you start fast, and maps are saved to your browser—no backend required.
+
+### Super Casa Club's Team
+
+- Alejandra Mandujano Cano de lor Rios
+- Roberto Rocha Reza
+- Salvador Orozco Gonzalez
+
+Learn more in the in‑app About page at `/about`.
+
 ## Quick start
 
 1. Install dependencies
