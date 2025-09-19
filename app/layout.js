@@ -18,8 +18,7 @@ function Nav() {
           <Link href="/create" className="rounded-md px-3 py-1.5 hover:bg-neutral-800">Create Mindmap</Link>
           <Link href="/templates" className="rounded-md px-3 py-1.5 hover:bg-neutral-800">Templates</Link>
           <Link href="/about" className="rounded-md px-3 py-1.5 hover:bg-neutral-800">About</Link>
-          <a href="#pricing" className="rounded-md px-3 py-1.5 hover:bg-neutral-800">Pricing</a>
-          <Link href="#" className="rounded-md border border-neutral-700 px-3 py-1.5 hover:bg-neutral-800">Sign in</Link>
+          <Link href="/pricing" className="rounded-md px-3 py-1.5 hover:bg-neutral-800">Pricing</Link>
         </nav>
       </div>
     </header>
@@ -39,7 +38,7 @@ function Footer() {
           <Link href="/create" className="hover:text-white">Create</Link>
           <Link href="/templates" className="hover:text-white">Templates</Link>
           <Link href="/about" className="hover:text-white">About</Link>
-          <a href="#pricing" className="hover:text-white">Pricing</a>
+          <Link href="/pricing" className="hover:text-white">Pricing</Link>
           <a href="#" className="hover:text-white">Support</a>
         </div>
       </div>
